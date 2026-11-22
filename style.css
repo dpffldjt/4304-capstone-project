@@ -1,0 +1,28 @@
+:root {
+    /* Colour palette */
+
+    /* Typography */
+    --font-size-xs: .8em;
+    --font-size-small: 1em;
+    --font-size-medium: 1.5em;
+    --font-size-large: 2em;
+    --font-size-h1: 3em;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --spacing--xl: 48px;
+}
+
+/* {
+    background-color: var(--primary-colour);
+    color: var(--font-colour);
+    display: block;
+    font-family: "Merriweather", "Nanum Myeongjo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: left;
+}
