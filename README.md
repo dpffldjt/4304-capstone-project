@@ -1,0 +1,5 @@
+# Purpose
+Korean learning materials are abundant with the explosion of Korean media globally, and many people also move to Korea to work. The needs of learners driven by entertainment and by immigration are different, but the test, the TOPIK, is the same. At the moment, there is a lack of integration between TOPIK preparation materials and natural spoken Korean used in entertainment. Korean learners planning to take the TOPIK are all affected by this, but my target audience is specifically fans of K-pop, because those learning Korean to work in Korea generally use TOPIK-style Korean at work. K-pop fans generally want to learn Korean to communicate with their idols and understand videos and songs more easily, but learning materials focusing on that are minimal. There used to be active content creators who broke down song lyrics and variety show clips for K-pop fans to study, but they have since disappeared or changed their content, so my project fills that niche.
+
+## Live Project
+[View the project](https://dpffldjt.github.io/4304-capstone-project/)
