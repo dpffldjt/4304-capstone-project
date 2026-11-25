@@ -1,5 +1,13 @@
 :root {
     /* Colour palette */
+    --noun: #FFC1CC;
+    --verb: #FFE0B2;
+    --adj: #FFF8B0;
+    --adv: #D5FCD6;
+    --part: #C2F0FF;
+    --gr: #D9C2F0;
+    --font-color: white;
+    --stroke-color: black;
 
     /* Typography */
     --font-size-xs: .8em;
@@ -15,14 +23,127 @@
     --spacing--xl: 48px;
 }
 
-/* {
-    background-color: var(--primary-colour);
+* {
     color: var(--font-colour);
     display: block;
-    font-family: "Merriweather", "Nanum Myeongjo", serif;
+    font-family: "Inter", "Nanum Myeongjo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    text-align: left;
+}
+
+body {
+    background-color: var(--gr);
+}
+
+main {
+    background-color: white;
+    max-width: 1072;
+    border: 4px solid var(--stroke-color);
+    border-radius: 16px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8px;
+}
+
+.tab, .current-tab {
+    background-color: white;
+    padding: 8px;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 2px solid var(--stroke-color);
+    margin: 8px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    transform:scale(1.1);
+}
+
+.current-tab {
+    background-color: var(--adv);
+    font-weight: bold;
+}
+
+h1 {
+    background-color: var(--part);
+    border-radius: 16px;
+    border: 4px solid var(--stroke-color);
+    width: fit-content;
+    padding: 10px;
+    justify-self: center;
+}
+
+.lesson-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.lesson-card {
+    border: 4px solid var(--stroke-color);
+    border-radius: 16px;
+    margin: 25px;
+    width: 300px;
+    padding: 8px 16px 16px 8px;
+}
+
+.lesson-card h2, .lesson-card h3 {
+    width: fit-content;
+    justify-self: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.lesson-card h2 {
+    font-size: 24px;
+    border: 2px solid var(--stroke-color);
+}
+
+.lesson-card h3 {
+    font-size: 12px;
+    border: 1px solid var(--stroke-color);
+}
+
+.card {
+    width: fit-content;
+    border: 1px solid var(--stroke-color);
+    border-radius: 8px;
+}
+
+.n {
+    background-color: var(--noun);
+}
+
+.v {
+    background-color: var(--verb);
+}
+
+.adj {
+    background-color: var(--adj);
+}
+
+.adv {
+    background-color: var(--adv);
+}
+
+.part {
+    background-color: var(--part);
+}
+
+.gr {
+    background-color: var(--gr);
+}
+
+.lesson-content {
+    margin: 16px;
+}
+
+.lesson-content li {
+    margin: 4px;
+    padding: 4px;
 }
