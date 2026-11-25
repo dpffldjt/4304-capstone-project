@@ -78,6 +78,10 @@ h1 {
     justify-self: center;
 }
 
+strong, em {
+    display: inline;
+}
+
 .lesson-grid {
     display: flex;
     flex-flow: row wrap;
